@@ -1,0 +1,59 @@
+---
+title: "Critical Analysis of Child Labor in Turkey: Insights from Statistical Data"
+author: 
+  - Kul, Sılanur Ayşen[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 19080406
+
+
+
+# Introduction
+This study endeavors to scrutinize the quantitative landscape of child labor in Turkey and its sectoral distribution, drawing upon data from child labor research conducted by the Turkish Statistical Institute.
+
+Findings from three distinct child labor surveys indicate a declining trend in the number of children engaged in work activities. Nevertheless, the precise magnitude of child labor in Turkey remains elusive. This ambiguity stems from various factors, including the paucity of research dedicated to this domain, the involvement of children in unauthorized labor, their participation in family enterprises, the underrepresentation of refugee children in official statistics, and the challenge of accurately capturing street vendors, as well as temporary and seasonal workers.
+
+In recent years, due to the downward trend in economic growth, the youth unemployment rate has been increasing. Today, millions of young people are working precariously in part-time, low-paid, or temporary jobs. Even in developed countries, finding a decent job has become quite difficult.The causes of youth unemployment can be classified into two main groups: macroeconomic conditions and skills mismatch [@inproceedings{alkan2015problematic].
+
+
+## Literature Review
+
+In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+
+
+
+**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
+
+**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+
+\newpage
+# References {#references}
+<div id="refs"></div>
